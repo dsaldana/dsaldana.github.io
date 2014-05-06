@@ -16,6 +16,8 @@
 /* --------- Basic Styles --------- */
 body {
 	font-family: 'Open Sans', Arial;
+	margin: 0px;
+	background-color: #F5F5F5;
 }
 
 /* Typography*/
@@ -81,11 +83,32 @@ blockquote {
 	padding: 40px;
 }
 
+
 /* --------------------------- Styles --------------------------- */
 
 /* --------- Header Styles --------- */
-header {
-	margin: 30px 0;
+header {	
+	width: 100%;
+	background-color: whitesmoke;	
+	padding-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container{
+	background-color: #F9F9F9;
+	padding-left: 0px;
+}
+
+
+.container23{
+	background-color: white;	
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-bottom: 50px;
 }
 
 header nav ul {
@@ -107,18 +130,30 @@ header nav ul li a {
 	background-color: #fff;
 	margin-top: 0px;
 	margin-bottom: 20px;
-	border: none;
+	border: 2px solid #EEE;
 }
 
 .nav.navbar-nav {
 	padding-top: 30px;
 }
 
+/* dd*/
+.navbar.navbar-default{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	padding-left: 50px;	
+}
+
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #7cc576;
 }
 
+.navbar-nav > li > a {
+	line-height: 11px;
+}
 /* Styling for navbar toggle that appears on small mobile devices */
 .navbar-default .navbar-toggle {
   border-color: #7cc576;
@@ -178,19 +213,16 @@ header nav ul li a {
 
 	text-align: center;
 	color: #000;
-	padding: 100px 0;
-}
-	.intro h1 {
-		padding-bottom: 15px;
-	}
+	/*padding: 100px 0;*/
+	padding-top: 115px;
+	padding-bottom: 100px;
+	margin-top: 50px;
 
-	.intro h3 {
-		padding-bottom: 35px;
-	}
-
+	
+	
 	.intro .btn {
 		padding-left: 35px;
-		padding-right: 35px;
+		padding-right: 35px;		
 		text-transform: uppercase;
 
 		text-shadow: 2px 2px  #42aa3f;
@@ -199,6 +231,17 @@ header nav ul li a {
 	.intro a.btn:hover {
 		color: #fff;
 	}
+}
+.intro h1 {
+		
+		padding-top: 40px;		
+		
+}
+.intro h3 {
+		
+		padding: 10px;	
+		padding-bottom: 15px;	
+}
 
 /* --------- Services Styling --------- */
 .services {
@@ -377,7 +420,7 @@ header nav ul li a {
 
 /* --------- Features-2 Styling --------- */
 .features2 {
-	background-color: #f9f9f9;
+	background-color: white;
 	padding: 100px 0;
 	text-align: center;
 }
